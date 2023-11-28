@@ -30,15 +30,3 @@ p{
     font-size: 30px;
     color: black;
 }
-.contentbox{
-    display: flex;
-    justify-content: space-between;
-}
-.infopanel{
-    background-color: darkred;
-    vertical-align: center;
-}
-.clientpanel{
-    background-color: blue;
-    vertical-align: center;
-}
