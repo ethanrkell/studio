@@ -31,14 +31,16 @@ p {
 }
 .contentbox {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 #infobox {
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 100px;
+
 }
 #clientbox {
-    background-color: grey;
-
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 100px;
 }
 ul {
     font-family: 'Roboto', sans-serif;
