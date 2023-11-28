@@ -7,17 +7,13 @@ h1{
     color: black;
     text-transform: uppercase;
 }
-a:active{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
-a:visited{
-    text-decoration: none;
-}
+
 nav{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: black;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
 }
