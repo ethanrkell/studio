@@ -30,3 +30,7 @@ p{
     font-size: 30px;
     color: black;
 }
+.contentbox{
+    display: flex;
+    background-color: green;
+}
