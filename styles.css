@@ -1,27 +1,27 @@
-body{
+body {
     background-color: #f5f5f5;
 }
-h1{
+h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: black;
 }
-a{
+a {
     color: black;
     text-decoration: none;
 }
-h2{
+h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
 }
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: black;
 }
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,12 +29,18 @@ p{
     font-size: 30px;
     color: black;
 }
-.contentbox{
+.contentbox {
     display: flex;
     justify-content: space-around;
-    background-color: green;
 }
-ul{
+#infobox {
+    background-color: grey;
+}
+#clientbox {
+    background-color: grey;
+
+}
+ul {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: black;
