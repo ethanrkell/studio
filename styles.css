@@ -30,7 +30,13 @@ p{
     font-size: 30px;
     color: black;
 }
-.infopanel{
+.contentbox{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.infopanel{
+    background-color: darkred;
+}
+.clientpanel{
+    background-color: blue;
 }
