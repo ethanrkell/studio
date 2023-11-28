@@ -16,7 +16,6 @@ h2{
     color: black;
     text-transform: uppercase;
 }
-
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -32,5 +31,6 @@ p{
 }
 .contentbox{
     display: flex;
+    justify-content: space-around;
     background-color: green;
 }
