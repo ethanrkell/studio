@@ -36,7 +36,9 @@ p{
 }
 .infopanel{
     background-color: darkred;
+    vertical-align: center;
 }
 .clientpanel{
     background-color: blue;
+    vertical-align: center;
 }
