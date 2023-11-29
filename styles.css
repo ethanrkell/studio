@@ -20,7 +20,7 @@ h2 {
 }
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     color: black;
 }
 .navbar {
@@ -31,7 +31,7 @@ p {
     font-size: 50px;
     color: black;
 }
-.contentbox {
+.main-content {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -39,7 +39,7 @@ p {
     flex-direction: row;
     flex: 1;
 }
-#infobox {
+#info {
     background-color: #ecede8;
     padding: 50px;
     border-radius: 10px;
@@ -48,7 +48,7 @@ p {
     justify-content: left;
     flex-direction: column;
 }
-#clientbox {
+#client-gallery {
     background-color: #ecede8;
     padding: 50px;
     border-radius: 10px;
@@ -70,4 +70,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+ul:hover{
+    color: blue;
 }
