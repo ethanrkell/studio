@@ -31,7 +31,7 @@ p {
 .main-content {
     display: flex;
     gap: 100px;
-    flex-direction: column;
+    flex-direction: row;
 }
 #info {
     background-color: #ecede88c;
