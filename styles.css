@@ -30,7 +30,7 @@ p {
 }
 .main-content {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     flex-direction: row;
 }
 #info {
