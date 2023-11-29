@@ -22,7 +22,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color: black;
-    font-size: 300;
+    font-size: 200;
 }
 .navbar {
     display: flex;
@@ -31,17 +31,19 @@ p {
 .main-content {
     display: flex;
     gap: 100px;
+    flex-direction: column;
 }
 #info {
     background-color: #ecede88c;
     padding: 50px;
     border-radius: 10px;
+    flex: 1;
 }
 #client-gallery {
     background-color: #ecede88c;
     padding: 50px;
     border-radius: 10px;
-
+    flex: 3;
 }
 #info:hover{
     background-color: rgba(88, 108, 97, 0.3);
