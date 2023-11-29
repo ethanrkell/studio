@@ -57,6 +57,7 @@ p {
 }
 #gallery{
     outline: 1cm;
+    outline-color: black;
 }
 ul {
     font-family: 'Lato', sans-serif;
