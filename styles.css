@@ -33,13 +33,13 @@ p {
 .contentbox {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     align-content: stretch;
     flex-direction: row;
 }
 #infobox {
     background-color: #ecede8;
-    padding: 100px;
+    padding: 50px;
     border-radius: 10px;
     display: flex;
     flex: 1;
@@ -48,7 +48,7 @@ p {
 }
 #clientbox {
     background-color: #ecede8;
-    padding: 100px;
+    padding: 50px;
     border-radius: 10px;
     display: flex;
     flex: 3;
@@ -56,10 +56,10 @@ p {
     flex-direction: column;
 }
 #infobox:hover{
-    background-color: rgb(88, 108, 97);
+    background-color: rgba(88, 108, 97, 0.1);
 }
 #clientbox:hover{
-    background-color: rgb(88, 108, 97);
+    background-color: rgb(88, 108, 97, 0.1);
 }
 ul {
     font-family: 'Roboto', sans-serif;
