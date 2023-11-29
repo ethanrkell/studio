@@ -1,6 +1,6 @@
 body {
     background-color: #fefefe;
-    padding: 100px;
+    padding: 200px;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -27,13 +27,16 @@ p {
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     color: black;
 }
 .contentbox {
     display: flex;
     justify-content: center;
     gap: 100px;
+    align-content: stretch;
+    flex-grow: 1;
+    flex-direction: row;
 }
 #infobox {
     background-color: #ecede8;
@@ -41,6 +44,7 @@ p {
     border-radius: 10px;
     display: flex;
     justify-content: left;
+    flex-direction: column;
 }
 #clientbox {
     background-color: #ecede8;
@@ -48,6 +52,7 @@ p {
     border-radius: 10px;
     display: flex;
     justify-content: left;
+    flex-direction: column;
 }
 ul {
     font-family: 'Roboto', sans-serif;
