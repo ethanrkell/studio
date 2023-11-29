@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #fefefe;
     padding: 100px;
 }
 h1 {
@@ -36,13 +36,18 @@ p {
     gap: 100px;
 }
 #infobox {
-    background-color: #c9cac5;
+    background-color: #ecede8;
     padding: 100px;
-
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
 }
 #clientbox {
-    background-color: #c9cac5;
+    background-color: #ecede8;
     padding: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
 }
 ul {
     font-family: 'Roboto', sans-serif;
