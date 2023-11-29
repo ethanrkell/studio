@@ -46,7 +46,7 @@ p {
     justify-content: left;
     flex-direction: column;
 }
-#clientbox {
+#contactbox {
     background-color: #ecede8;
     padding: 100px;
     border-radius: 10px;
@@ -55,11 +55,27 @@ p {
     justify-content: left;
     flex-direction: column;
 }
-#infobox:hover{
-    background-color: rgb(88, 108, 97);
+#box1 {
+    background-color: #ecede8;
+    padding: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    flex-direction: column;
 }
-#clientbox:hover{
-    background-color: rgb(88, 108, 97);
+#box2 {
+    display: flex;
+    flex-direction: column;
+}
+#infobox:hover{
+    background-color: rgba(88, 108, 97, 0.1);
+}
+#contactbox:hover{
+    background-color: rgba(88, 108, 97, 0.1);
+}
+#box1:hover{
+    background-color: rgba(88, 108, 97, 0.1);
 }
 ul {
     font-family: 'Roboto', sans-serif;
