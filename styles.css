@@ -25,7 +25,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color: black;
-    font-size: 200;
+    font-size: 300;
 }
 .navbar {
     display: flex;
@@ -35,6 +35,8 @@ p {
     display: flex;
     gap: 50px;
     flex-direction: row;
+    width: 100%;
+    height: 100vh;
 }
 #info {
     background-color: #ecede88c;
@@ -59,7 +61,7 @@ p {
 ul {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 300;
     list-style-type: none; 
     margin: 0;
     padding: 0;
