@@ -51,7 +51,7 @@ p {
     padding: 100px;
     border-radius: 10px;
     display: flex;
-    flex: 1;
+    flex: 3;
     justify-content: left;
     flex-direction: column;
 }
