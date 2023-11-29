@@ -6,6 +6,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: black;
+    font-weight: 400;
 }
 a {
     color: black;
@@ -15,6 +16,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: black;
+    font-weight: 400;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -65,6 +67,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-ul:hover{
-    color: blue;
+li:hover{
+    color:blue;
 }
