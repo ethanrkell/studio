@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     padding: 100px;
 }
 h1 {
@@ -33,19 +33,20 @@ p {
 .contentbox {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 #infobox {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: #c9cac5;
     padding: 100px;
 
 }
 #clientbox {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: #c9cac5;
     padding: 100px;
 }
 ul {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: black;
-    text-decoration: none;
+    list-style-type: none;
 }
