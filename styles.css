@@ -1,11 +1,10 @@
 body {
     background-color: #fefefe;
-    padding: 200px;
-    margin: auto;
+    padding: 150px;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     color: black;
 }
 a {
@@ -16,7 +15,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: black;
-    text-transform: uppercase;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -25,11 +23,7 @@ p {
 }
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    color: black;
+    justify-content: left;
 }
 .main-content {
     display: flex;
@@ -57,10 +51,10 @@ p {
     justify-content: left;
     flex-direction: column;
 }
-#infobox:hover{
+#info:hover{
     background-color: rgba(88, 108, 97, 0.3);
 }
-#clientbox:hover{
+#client-gallery:hover{
     background-color: rgb(88, 108, 97, 0.3);
 }
 ul {
