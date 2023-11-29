@@ -35,7 +35,6 @@ p {
     justify-content: center;
     gap: 100px;
     align-content: stretch;
-    flex: 1;
     flex-direction: row;
 }
 #infobox {
@@ -43,6 +42,7 @@ p {
     padding: 100px;
     border-radius: 10px;
     display: flex;
+    flex: 1;
     justify-content: left;
     flex-direction: column;
 }
@@ -51,11 +51,15 @@ p {
     padding: 100px;
     border-radius: 10px;
     display: flex;
+    flex: 1;
     justify-content: left;
     flex-direction: column;
 }
 #infobox:hover{
-    background-color: aqua;
+    background-color: rgb(88, 108, 97);
+}
+#clientbox:hover{
+    background-color: rgb(88, 108, 97);
 }
 ul {
     font-family: 'Roboto', sans-serif;
