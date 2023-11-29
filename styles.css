@@ -34,7 +34,6 @@ p {
     gap: 50px;
     align-content: stretch;
     flex-direction: row;
-    flex: 1;
 }
 #info {
     background-color: #ecede88c;
@@ -42,7 +41,6 @@ p {
     border-radius: 10px;
     display: flex;
     flex: 1;
-    justify-content: left;
     flex-direction: column;
 }
 #client-gallery {
